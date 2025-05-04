@@ -1,13 +1,22 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <title>Setting up Box2D v3</title>
+    <style>
+      body {
+        font-family: "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif;
+      }
+      canvas {
+        background-color: #373737;
+      }
+    </style>
   </head>
+
   <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.js"></script>
+    <canvas id="renderCanvas" width="800" height="700"></canvas>
+    <script type="module" src="src/index.js"></script>
   </body>
 </html>
